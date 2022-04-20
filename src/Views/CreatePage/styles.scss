@@ -1,0 +1,31 @@
+.my-container {
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    flex-direction: column;
+  
+    width: 100%;
+    min-height: 100vh;
+    background-color: #080611;
+    padding: 20px;
+
+    input{
+        border-radius: 15px;
+    }
+
+    button {
+        
+    }
+  
+    color: #fff;
+    .form {
+      width: 100%;
+      padding: 10px;
+      // background-color: red;
+      display: flex;
+      flex-direction: column;
+    }
+    
+  }
+  
+  

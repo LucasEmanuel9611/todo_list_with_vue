@@ -1,0 +1,31 @@
+.my-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 95%;
+  height: 80px;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 20px;
+
+  .edit-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    // background-color: red;
+    width: 200px;
+    height: 100%;
+
+    p{
+      &:hover{
+        color: #666;
+      }
+    }
+  }
+
+  > h2 {
+    color: #fff;
+  }
+}
